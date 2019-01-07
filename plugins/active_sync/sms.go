@@ -111,11 +111,11 @@ func generateSmsContent(username, deviceId, code, srcIp, deviceType string) (sms
 			deviceType = deviceInfo.Model
 		}
 		if len(phone) > 5 {
-			smsContent = fmt.Sprintf("您的邮箱 %v 正在一台新的设备（%v，手机号码为：%v）上登录，请点击链接查看详情并允许或拒绝，%v?c=%v （此链接8小时后失效）",
+			smsContent = fmt.Sprintf("您的邮箱 %v 正在一台新的设备（%v，手机号码为：%v）上登录，请点击链接查看详情并允许或拒绝，%v/a/?c=%v （此链接8小时后失效）",
 				username, deviceType, phone, vars.ActiveUrl, code)
 		}
 	} else {
-		smsContent = fmt.Sprintf("您的邮箱 %v 正在一台新的设备（%v）上登录，请点击链接查看详情并允许或拒绝，%v?c=%v （此链接8小时后失效）",
+		smsContent = fmt.Sprintf("您的邮箱 %v 正在一台新的设备（%v）上登录，请点击链接查看详情并允许或拒绝，%v/a/?c=%v （此链接8小时后失效）",
 			username, deviceType, vars.ActiveUrl, code)
 	}
 

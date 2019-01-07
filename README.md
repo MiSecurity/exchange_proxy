@@ -58,7 +58,7 @@ active_url = https://mail.sec.lu/a/
 - redis节表示redis服务器的配置
 - otp节为动态口令检测API的URL
 - sms节表示短信接口的API
-- user_info节下的user_phone表示查找手机的接口，active_url表示手机中激活连接的URL,`/a/`这个路径不能修改
+- user_info节下的user_phone表示查找手机的接口，active_url表示手机中激活连接的URL
 
 设置好配置文件后，可通过`./main`直接启动代理服务器，如下图所示：
 ![](http://docs.xsec.io/images/mail_proxy/mail_proxy041.png)
