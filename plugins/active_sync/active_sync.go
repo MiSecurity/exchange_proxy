@@ -34,13 +34,12 @@ import (
 
 	"exchange_proxy/logger"
 	"exchange_proxy/models"
+	"exchange_proxy/util/wbxml"
 	"exchange_proxy/vars"
 
+	"github.com/toolkits/slice"
 	"github.com/vulcand/oxy/forward"
 	"github.com/vulcand/oxy/testutils"
-
-	"exchange_proxy/util/wbxml"
-	"github.com/toolkits/slice"
 )
 
 func filterCmd(resp *http.Response) (err error) {

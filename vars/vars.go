@@ -27,11 +27,12 @@ package vars
 import (
 	"exchange_proxy/logger"
 	"exchange_proxy/settings"
-	"github.com/sirupsen/logrus"
+
 	"path/filepath"
 	"strings"
 
 	"github.com/go-redis/redis"
+	"github.com/sirupsen/logrus"
 	"github.com/vulcand/oxy/forward"
 )
 

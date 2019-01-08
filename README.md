@@ -72,6 +72,7 @@ WEB通过外网访问WEB端时，要求必须输入正确的OTP口令才可以�
 ![](http://docs.xsec.io/images/mail_proxy/mail_proxy04.png)
 
 - 激活确认页面
+
 ![](http://docs.xsec.io/images/mail_proxy/mail_proxy05.png)
 
 - 激活成功页面

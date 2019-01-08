@@ -28,12 +28,12 @@ import (
 	"exchange_proxy/logger"
 	"exchange_proxy/models"
 	"exchange_proxy/vars"
+
+	"fmt"
 	"io/ioutil"
 	"net/http"
 	"strconv"
 	"strings"
-
-	"fmt"
 	"time"
 )
 
