@@ -121,3 +121,4 @@ func generateSmsContent(username, deviceId, code, srcIp, deviceType string) (sms
 
 	return smsContent
 }
+
